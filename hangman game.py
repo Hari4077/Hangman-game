@@ -1,6 +1,6 @@
-#import random
-#with open('words.txt','r') as f:
-    #words=f.readlines()
+import random
+with open('words.txt','r') as f:
+    words=f.readlines()
 word="programming"
 allowed_Errors=7
 guesses=[]
